@@ -1,3 +1,4 @@
+/* ini untuk atur bagian header gambar tengah makanan */
 .header {
   height: 34vw;
   margin: 30px auto;
@@ -6,10 +7,40 @@
   position: relative;
 }
 
-.header {
-  height: 34vw;
-  margin: 30px auto;
-  background: url("/header_img.png") no-repeat;
-  background-size: contain;
-  position: relative;
+/* peletakan font "order your food" */
+.header-contents {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1.5vw;
+  max-width: 50%;
+  bottom: 10%;
+  left: 6vw;
+  animation: fadeIn 3s;
 }
+
+/* mengedit bagian font tengah "Order" */
+.header-contents h2 {
+  font-weight: 500;
+  color: white;
+  font-size: max(4.5vw, 22px);
+}
+
+/* untuk mengubah isi dari font bawahnya */
+.header-contents p {
+  color: white;
+  font-size: 1vw;
+}
+
+/* menambahkan bagian tombol "view menu" */
+.header-contents button {
+  border: none;
+  color: #747474;
+  font-weight: 500;
+  padding: 1vw 2.3vw;
+  background-color: white;
+  font-size: max(1vw, 13px);
+  border-radius: 50px;
+}
+

@@ -1,0 +1,61 @@
+/* untuk mengedit space pada tulisan "explore Menu" */
+.explore-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* untuk mengedit warna pada tulisan 'explore menu' */
+.explore-menu h1 {
+  color: #000000;
+  font-weight: 500;
+}
+
+/* untuk edit bagian textnya */
+.explore-menu-text {
+  max-width: 60%;
+  columns: #808080;
+}
+
+/* untuk mengedit bagian menu yang ada di explore */
+.explore-menu-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  text-align: center;
+  margin: 20px 0px;
+  overflow: scroll;
+}
+/* untuk menghilangkan gambar scrollbar agar terlihat transparant */
+.explore-menu-list::-webkit-scrollbar {
+  display: none;
+}
+/* atur list dan cursor serta transition pada bagian menu */
+.explore-menu-list-item img {
+  width: 7.5vw;
+  min-width: 80px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: 0.2s;
+}
+
+/* untuk atur pada bagian tulisan menu */
+.explore-menu-list-item p {
+  margin: 10px;
+  color: #747474;
+  font-size: max(1.4vw, 16px);
+  cursor: pointer;
+}
+/* untuk memunculkan garis lurus pada bagian bawah menu */
+.explore-menu hr{
+    margin: 10px 0px;
+    height: 2px;
+    background-color: #e2e2e2;
+    border: none;
+}
+/*  */
+.explore-menu-list-item .active{
+    border: 4px solid tomato;
+    padding: 2px;
+}
