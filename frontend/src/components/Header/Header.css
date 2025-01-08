@@ -5,3 +5,11 @@
   background-size: contain;
   position: relative;
 }
+
+.header {
+  height: 34vw;
+  margin: 30px auto;
+  background: url("/header_img.png") no-repeat;
+  background-size: contain;
+  position: relative;
+}
