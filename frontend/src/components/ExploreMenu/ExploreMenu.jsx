@@ -6,7 +6,7 @@ const ExploreMenu = ({category,setCategory}) => {
 
   return (
     <div className="explore-menu" id="explore-menu">
-      <h1>Explore our menu</h1>
+      <h1>Cari Menu</h1>
       <p className='explore-menu' id='explore-menu'>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat earum
         est, nostrum blanditiis sint delectus rerum provident suscipit placeat
