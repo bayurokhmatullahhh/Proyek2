@@ -1,0 +1,22 @@
+/* cart/keranjang css area */
+.cart{
+    margin-top: 100px;
+}
+/* css untuk bagian table pesanan pada keranjang belanja */
+.cart-items-title{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr;
+    align-items: center;
+    color: grey;
+    font-size: max(1vw,12px);
+}
+/* untuk mengatur item tulisan di dalamnya */
+.cart-items-item{
+    margin: 10px 0px;
+    color: black;
+}
+/* mengatur agar lebih kecil/besarnya pesanan */
+.cart-items-item img{
+    width: 50px;
+
+}

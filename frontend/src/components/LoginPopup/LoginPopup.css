@@ -1,1 +1,75 @@
-/*  */
+/* untuk edit tampilan pada sign css area */
+.login-popup{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: #00000090;
+    display: grid;
+}
+/* untuk mengedit dalam menampikan kotak login */
+.login-popup-container{
+    place-self: center;
+    width: max(23vw, 330px);
+    color: #808080;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px 30px;
+    border-radius: 8px;
+    font-size: 14px;
+    animation: fadeIn 0.5s;
+}
+/* untuk mengatur tulisan LOGIN pada kotak */
+.login-popup-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+/* mengatur tanda silang di kotak */
+.login-popup-title img{
+    width: 16px;
+    cursor: pointer;
+}
+/* untuk mengatur baris baris spasi pada kotak */
+.login-popup-inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+/* untuk mengatur besar/kecil tulisan untuk input login */
+.login-popup-inputs input{
+    outline: none;
+    border: 1px solid #c9c9c9;
+    padding: 10px;
+    border-radius: 4px;
+}
+/* untuk mengatur tombol login/register */
+.login-popup-container button{
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    background-color: tomato;
+    font-size: 15px;
+    cursor: pointer;
+}
+/* untuk mengatur tulisan dibawah tombol */
+.login-popup-condition{
+    display: flex;
+    align-items: start;
+    gap: 8px;
+    margin-top: -15px;
+}
+/* untuk mengatur space */
+.login-popup-condition input{
+    margin-top: 5px;
+}
+/* mengatur tulisan paling bawah kotak */
+.login-popup p span{
+    color: tomato;
+    font-weight: 500;
+    cursor: pointer;
+}
