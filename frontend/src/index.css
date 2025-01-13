@@ -5,6 +5,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: Outfit;
+  scroll-behavior: smooth; /* untuk bagian ketika navbar ketika di pencet akan scroll */
 }
 body {
   min-height: 100vh;
